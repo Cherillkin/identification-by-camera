@@ -1,4 +1,3 @@
 @echo off
-echo Запуск Блокнота...
-start notepad.exe
-exit
+start "" "%SystemRoot%\system32\notepad.exe"
+exit /b 0
